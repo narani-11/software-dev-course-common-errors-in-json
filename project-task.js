@@ -43,31 +43,35 @@ but it contains multiple syntax errors that prevent it from being parsed.
 // ============================================
 // 🔍 Provided JSON File with Errors
 // ============================================
+ 
 
-const invalidBookingJSON = `
-{
+const validBookingJSON ={
+  
   "hotelName": "Grand City Hotel",
-  "checkInDate": "2024-05-15"
-  "checkOutDate": "2024-05-20",
+  "checkInDate": "05-15-2024", 
+  "checkOutDate": "05-20-2024",  
+  
   "guests": [
     {
-      name: "Alice Johnson",
+      "name": "Alice Johnson",
       "age": 30,
       "email": "alice.johnson@example.com"
     },
     {
       "name": "Bob Smith",
-      "age": undefined,
-      "email": "bob.smith@example"
+      "age": 29, 
+      "email": "bob.smith@example.com" 
     }
   ],
+  
   "roomDetails": {
     "type": "Suite",
-    "pricePerNight": 200,
-    "amenities": ["WiFi", "Breakfast", "Parking",]
+    "pricePerNight": 200, 
+    "amenities": ["WiFi", "Breakfast", "Parking"] 
   }
 }
-`;
+
+//console.log(validBookingJSON);
 
 
 // ============================================
@@ -91,6 +95,7 @@ const invalidBookingJSON = `
 💬 Reflect and answer the following:
 
 1️⃣ What tools or techniques did you use to identify the errors?
+
 
 2️⃣ How did you confirm that your corrected JSON file was valid?
 
