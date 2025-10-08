@@ -113,4 +113,4 @@ So here I observed each line of code first I changed variable invalidBookingJSON
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
 */
-Next time I will use syntax highlighting and also JavaScript linters to find errors before executing the code in VS code and also writing JSON code with proper spacing and validate JSON carefully. By writing the JSON code by example and hecking each line of code so that I can avoid errors in the future.
+Next time I will use syntax highlighting and also JavaScript linters to find errors before executing the code in VS code and also writing JSON code with proper spacing and validate JSON carefully. By writing the JSON code by example and checking each line of code so that I can avoid errors in the future.
